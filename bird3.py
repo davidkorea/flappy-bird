@@ -14,6 +14,10 @@ SCREENWIDTH = 288
 SCREENHEIGHT = 512
 IMAGES = {}
 
+FPS = 30
+FPSCLOCK = pygame.time.Clock()
+
+
 pygame.init()
 SCREEN = pygame.display.set_mode((SCREENWIDTH, SCREENHEIGHT))
 pygame.display.set_caption('Flappy Bird')
@@ -45,20 +49,20 @@ while True:
             exit()
         elif event.type == KEYDOWN:
             if event.key == K_LEFT:
-                move_x = -1
+                move_x = -3
             elif event.key == K_RIGHT:
-                move_x = 1
+                move_x = 3
             elif event.key == K_DOWN:
-                move_y = 1
+                move_y = 3
             elif event.key == K_UP:
-                move_y = -1
+                move_y = -3
         # y-axis 0 -> +inf from top to buttom, so K_UP = -3
         elif event.type == KEYUP:
             move_x = 0
             move_y = 0
     x = x + move_x
     y = y + move_y
-    if x > SCREENHEIGHT:
+    if x > SCREENWIDTH:
         x = 0
     elif x < 0:
         x = SCREENWIDTH
@@ -70,7 +74,7 @@ while True:
     SCREEN.blit(IMAGES['background'],(0,0))
     SCREEN.blit(IMAGES['pipe'][0], (0,0))
     SCREEN.blit(IMAGES['pipe'][1], (0,SCREENHEIGHT-PIPE_HEIGHT))
-    
+
     SCREEN.blit(IMAGES['bird'][flap], (x, y))
     flap = flap + 1
     if flap % 3 == 0:
@@ -78,6 +82,7 @@ while True:
 
 
     pygame.display.update()
+    FPSCLOCK.tick(FPS)
 
 
 
