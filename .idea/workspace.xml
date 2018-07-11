@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cb3680b-689c-474e-865c-4e5ac8cc9c1b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/bird4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/flappy bird.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flappy bird.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bird2.py" beforeDir="false" afterPath="$PROJECT_DIR$/bird2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bird3.py" beforeDir="false" afterPath="$PROJECT_DIR$/bird3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,50 +16,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="bird2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bird2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bird1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bird1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bird3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bird3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pygame_4.py" pinned="false" current-in-tab="false">
-        <entry file="file://E:/BaiduYunDownload/实用数据挖掘与人工智能一月特训班/每日课件及代码/1.30/pygame_4.py">
+        <entry file="file://$PROJECT_DIR$/../实用数据挖掘与人工智能一月特训班/每日课件及代码/1.30/pygame_4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="121" column="22" lean-forward="true" selection-start-line="121" selection-end-line="122" />
+            <state relative-caret-position="50">
+              <caret line="107" selection-start-line="107" selection-end-line="110" selection-end-column="63" />
               <folding>
                 <element signature="e#434#447#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bird4.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bird4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="115" column="63" selection-start-line="115" selection-start-column="63" selection-end-line="115" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,46 +59,44 @@
         <option value="$PROJECT_DIR$/bird1.py" />
         <option value="$PROJECT_DIR$/bird3.py" />
         <option value="$PROJECT_DIR$/bird2.py" />
+        <option value="$PROJECT_DIR$/bird4.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="194" />
-    <option name="y" value="46" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="200" />
+    <option name="y" value="22" />
     <option name="width" value="1002" />
-    <option name="height" value="720" />
+    <option name="height" value="688" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="flappy bird" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flappy bird" type="462c0819:PsiDirectoryNode" />
+              <item name="flappy-bird" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flappy-bird" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="flappy bird" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flappy-bird" type="b2602c69:ProjectViewProjectNode" />
               <item name="1.30" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flappy bird" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1.30" type="462c0819:PsiDirectoryNode" />
-              <item name="Week3_FlappyBird" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="E:/BaiduYunDownload/实用数据挖掘与人工智能一月特训班/每日课件及代码/1.30" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../实用数据挖掘与人工智能一月特训班/每日课件及代码/1.30" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -135,7 +111,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.bird3">
+  <component name="RunManager" selected="Python.bird4">
     <configuration name="bird1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="flappy bird" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,13 +166,33 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="bird4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="flappy bird" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bird4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.bird1" />
       <item itemvalue="Python.bird2" />
       <item itemvalue="Python.bird3" />
+      <item itemvalue="Python.bird4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bird4" />
         <item itemvalue="Python.bird3" />
         <item itemvalue="Python.bird2" />
         <item itemvalue="Python.bird1" />
@@ -217,74 +213,36 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="194" y="46" width="1002" height="720" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1713996" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.12371889" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3294702" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="0" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3290938" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="4" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/BaiduYunDownload/实用数据挖掘与人工智能一月特训班/每日课件及代码/1.30/bird_3_1.py">
+    <entry file="file://$PROJECT_DIR$/../实用数据挖掘与人工智能一月特训班/每日课件及代码/1.30/pygame_4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/BaiduYunDownload/实用数据挖掘与人工智能一月特训班/每日课件及代码/1.30/auto_bird.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://E:/BaiduYunDownload/实用数据挖掘与人工智能一月特训班/每日课件及代码/1.30/flappy_bird_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/BaiduYunDownload/实用数据挖掘与人工智能一月特训班/每日课件及代码/1.30/Week3_FlappyBird/pygame_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-141">
-          <caret line="29" column="51" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="51" />
-          <folding>
-            <element signature="e#363#376#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/BaiduYunDownload/实用数据挖掘与人工智能一月特训班/每日课件及代码/1.30/pygame_fps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="78" column="11" lean-forward="true" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/BaiduYunDownload/实用数据挖掘与人工智能一月特训班/每日课件及代码/1.30/pygame_4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="121" column="22" lean-forward="true" selection-start-line="121" selection-end-line="122" />
+        <state relative-caret-position="1978">
+          <caret line="86" column="11" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
           <folding>
             <element signature="e#434#447#0" expanded="true" />
           </folding>
@@ -293,18 +251,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bird3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+        <state relative-caret-position="1863">
+          <caret line="81" selection-end-line="88" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bird1.py">
+    <entry file="file://$PROJECT_DIR$/bird4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state>
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -313,8 +270,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bird2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="1159">
           <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bird1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bird3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/实用数据挖掘与人工智能一月特训班/每日课件及代码/1.30/bird_3_1.py" />
+    <entry file="file://E:/BaiduYunDownload/实用数据挖掘与人工智能一月特训班/每日课件及代码/1.30/auto_bird.py" />
+    <entry file="file://E:/BaiduYunDownload/实用数据挖掘与人工智能一月特训班/每日课件及代码/1.30/flappy_bird_utils.py" />
+    <entry file="file://E:/BaiduYunDownload/实用数据挖掘与人工智能一月特训班/每日课件及代码/1.30/Week3_FlappyBird/pygame_1.py" />
+    <entry file="file://E:/BaiduYunDownload/实用数据挖掘与人工智能一月特训班/每日课件及代码/1.30/pygame_fps.py" />
+    <entry file="file://E:/BaiduYunDownload/实用数据挖掘与人工智能一月特训班/每日课件及代码/1.30/pygame_4.py" />
+    <entry file="file://$PROJECT_DIR$/bird1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bird2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bird3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="81" selection-end-line="88" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../实用数据挖掘与人工智能一月特训班/每日课件及代码/1.30/pygame_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="107" selection-start-line="107" selection-end-line="110" selection-end-column="63" />
+          <folding>
+            <element signature="e#434#447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bird4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="115" column="63" selection-start-line="115" selection-start-column="63" selection-end-line="115" selection-end-column="63" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
