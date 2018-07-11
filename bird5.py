@@ -3,8 +3,8 @@ from pygame.locals import *
 from sys import exit
 import random
 
-BACKGROUND_PATH = './assets/sprites/background-black.png'
-PIPE_PATH = './assets/sprites/pipe-green.png'
+BACKGROUND_PATH = 'assets/sprites/background-black.png'
+PIPE_PATH = 'assets/sprites/pipe-green.png'
 BASE_PATH = './assets/sprites/base.png'
 PLAYER_PATH = (
     './assets/sprites/redbird-upflap.png',
