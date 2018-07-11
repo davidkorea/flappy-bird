@@ -56,7 +56,7 @@ while True:
             move_y = 0
     x = x + move_x
     y = y + move_y
-    if x > SCREENHEIGHT:
+    if x > SCREENWIDTH:
         x = 0
     elif x < 0:
         x = SCREENWIDTH
