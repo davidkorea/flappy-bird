@@ -32,16 +32,44 @@ IMAGES['pipe'] = (
 PIPE_WIDTH = IMAGES['pipe'][0].get_width()
 PIPE_HEIGHT = IMAGES['pipe'][0].get_height()
 
+x = 1/2 * SCREENWIDTH
+y = 1/2 * SCREENHEIGHT
+move_x = 0
+move_y = 0
+
 while True:
     for event in pygame.event.get():
         if event.type == QUIT:
             exit()
+        elif event.type == KEYDOWN:
+            if event.key == K_LEFT:
+                move_x = -1
+            elif event.key == K_RIGHT:
+                move_x = 1
+            elif event.key == K_DOWN:
+                move_y = 1
+            elif event.key == K_UP:
+                move_y = -1
+        # y-axis 0 -> +inf from top to buttom, so K_UP = -3
+        elif event.type == KEYUP:
+            move_x = 0
+            move_y = 0
+    x = x + move_x
+    y = y + move_y
+    if x > SCREENHEIGHT:
+        x = 0
+    elif x < 0:
+        x = SCREENWIDTH
+    if y > SCREENHEIGHT:
+        y = 0
+    elif y < 0:
+        y = SCREENHEIGHT
 
     SCREEN.blit(IMAGES['background'],(0,0))
     SCREEN.blit(IMAGES['pipe'][0], (0,0))
     SCREEN.blit(IMAGES['pipe'][1], (0,SCREENHEIGHT-PIPE_HEIGHT))
 
-    SCREEN.blit(IMAGES['bird'][1], (1/2*SCREENWIDTH, 1/2*SCREENHEIGHT))
+    SCREEN.blit(IMAGES['bird'][1], (x, y))
 
     pygame.display.update()
 
