@@ -61,7 +61,7 @@ def getRandomPipe():
 pipeVelX = -4
 newPipe1 = getRandomPipe()
 upperPipes = [
-    {'x': SCREENWIDTH, 'y': newPipe1[0]['y']}
+    {'x': SCREENWIDTH, 'y': newPipe1[0]['y']},
 ]
 lowerPipes = [
     {'x': SCREENWIDTH, 'y': newPipe1[1]['y']},
