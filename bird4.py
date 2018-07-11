@@ -48,7 +48,7 @@ move_y = 0
 flap = 0
 
 def getRandomPipe():
-    gapYs = [40]
+    gapYs = [10,30,40,60,90,110,130,160,190]
     index = random.randint(0, len(gapYs)-1)
     gapY = gapYs[index]
     gapY += int(BASEY * 0.2)
@@ -93,6 +93,15 @@ while True:
         # SCREEN.blit(IMAGES['pipe'][0], (upipe['x'], upipe['y']))
         # SCREEN.blit(IMAGES['pipe'][1], (lpipe['x'], lpipe['y']))
         # why can not show pipes here directly?????
+
+    if 0 < upperPipes[0]['x'] < 5:
+        newPipe = getRandomPipe()
+        upperPipes.append(newPipe[0])
+        lowerPipes.append(newPipe[1])
+
+    if upperPipes[0]['x'] < - PIPE_WIDTH:
+        upperPipes.pop(0)
+        lowerPipes.pop(0)
 
     x = x + move_x
     y = y + move_y
